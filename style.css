@@ -4,6 +4,15 @@
     font-family: "Roboto";
 }
 
+body{
+    background: linear-gradient(135deg, #ffffff, #00bfff); 
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+
+}
+
 header{
     text-align: center;
     background-color: black;
@@ -11,13 +20,18 @@ header{
     color: aliceblue;
     padding: 2%;
     margin-bottom: 8px;
+    font-size: 25px; 
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     
 }
 
-.form{
+.form {
     display: flex;
-    justify-content:  center;
-    gap: 2px;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
 .info{
@@ -26,6 +40,7 @@ header{
     align-items: center;
     flex-direction: column;
     opacity: 100%;
+    font-size: 25px;
 }
 
 footer{
@@ -33,5 +48,10 @@ footer{
     bottom: 0;
     background-color: black;
     padding: auto;
-    width: 99%;
+    width: 100%;
+    background: linear-gradient(135deg, #2a5298, #1e3c72);
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: aliceblue;
+    
 }
